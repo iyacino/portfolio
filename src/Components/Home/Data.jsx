@@ -55,7 +55,7 @@ function Data() {
         </svg>
         </h1>
         <h3 className="home__subtitle">Frontend Developer</h3>
-        <p className="home__description">I'm creative Frontend Developer based in Africa, very passionate and dedicated to my job.</p>
+        <p className="home__description">Creative Frontend Developer based in Algeria, very passionate and dedicated to my job.</p>
         <a href="#contact" className="button button--flex">
             Say Hello
             <svg
