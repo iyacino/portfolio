@@ -17,7 +17,7 @@ function Header() {
     window.addEventListener("scroll", function(){
         const sections = document.querySelectorAll('section');
         const navLi = document.querySelectorAll('nav .nav__menu ul li a');
-        // console.log(navLi)
+        //console.log(navLi)
         let current = '';
         sections.forEach( section => {
             const sectionTop = section.offsetTop;
@@ -66,6 +66,12 @@ function Header() {
                     </li>
 
                     <li className="nav__item">
+                        <a href="#qualifications" onClick={()=> setActiveNav("#qualifications")} className={activeNav === "#qualifications" ? "qualifications nav__link active-link" : "qualifications nav__link"}>
+                            <i className="uil uil-award nav__icon"></i> Qualifications 
+                        </a>
+                    </li>
+
+                    <li className="nav__item">
                         <a href="#portfolio" onClick={()=> setActiveNav("#portfolio")} className={activeNav === "#portfolio" ? "portfolio nav__link active-link" : "portfolio nav__link"}>
                             <i className="uil uil-scenery nav__icon"></i> Porfolio
                         </a>
@@ -78,10 +84,10 @@ function Header() {
                     </li>
                 </ul>
 
-                <i class="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
+                <i className="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
             </div>
             <div className="nav__toggle" onClick={()=>showMenu(!Toggle)}>
-                <i class="uil uil-apps"></i>
+                <i className="uil uil-apps"></i>
             </div>
         </nav>
     </header>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import AboutImg from '../../Assets/about.jpg';
-import CV from '../../Assets/John-Cv.pdf';
+import CV from '../../Assets/Yacine-cv.pdf';
 import Info from './Info';
 
 function About() {
@@ -15,13 +15,12 @@ function About() {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    Frontend developer, I create web pages with UI / UX user interface, 
-                    I have years of experience and many clients are happy with the projects carried out.
+                I am a skilled front-end developer with a passion for creating intuitive and visually appealing web applications. With 3 years of experience in the industry, I have developed a strong foundation in HTML, CSS, and JavaScript, and have a keen eye for detail when it comes to UI/UX design.
                 </p>
                 <div className='about__special--button'>
                 <a download="" href={CV} className="button button--flex">Download CV
                     <svg
-                        class="button__icon"
+                        className="button__icon"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"

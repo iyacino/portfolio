@@ -44,10 +44,12 @@
 
 /* Active link */
 .nav__link:hover {
-    color: rgba(94, 94, 35, 0.82);
+    color: rgba(161, 1, 1, 1);
+    
 }
 .active-link {
-  color: rgba(94, 94, 35, 0.82);
+  color: rgba(161, 1, 1, 1);
+  
 }
 
 /* Change background header*/
