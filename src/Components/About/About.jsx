@@ -15,7 +15,7 @@ function About() {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                I am a skilled front-end developer with a passion for creating intuitive and visually appealing web applications. With 3 years of experience in the industry, I have developed a strong foundation in HTML, CSS, and JavaScript, and have a keen eye for detail when it comes to UI/UX design.
+                I am a skilled front-end developer with a passion for creating intuitive and visually appealing web applications. With 7 years of experience in the industry, I have developed a strong foundation in HTML, CSS, and JavaScript and other Technologies as well, in addition to a keen eye for detail when it comes to UI/UX design.
                 </p>
                 <div className='about__special--button'>
                 <a download="" href={CV} className="button button--flex">Download CV

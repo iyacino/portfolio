@@ -12,12 +12,12 @@ const Footer = () => {
                 <li><a href="#testimonials" className="footer__link">Testimonials</a></li>
             </ul>
 
-            <div className="footer__social">
+            {/* <div className="footer__social">
                 <a href="https://www.facebook.com/" className="footer__social-link" target="_blank"><i className="bx bxl-facebook"></i></a>
                 <a href="https://instagram.com/" className="footer__social-link" target="_blank"><i className="bx bxl-instagram"></i></a>
                 <a href="https://twitter.com/" className="footer__social-link" target="_blank"><i className="bx bxl-twitter"></i></a>
-            </div>
-            <span className='footer__copy'>&#169; Iyacoder. All rigths reserved</span>
+            </div> */}
+            <span className='footer__copy'>&#169; iYacino. All rigths reserved</span>
         </div>
     </footer>
 )
