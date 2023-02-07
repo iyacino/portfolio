@@ -60,7 +60,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">IT Engineer Degree</h3>
                                 <span className="qualification__subtitle">National Polytechnical School - Algiers - Algeria</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2011 - 2017
+                                    <i className="uil uil-calendar-alt"></i>2011 - 2016
                                 </div>
                             </div>
                             <div>

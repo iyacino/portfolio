@@ -30,7 +30,9 @@
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
+    max-width: 300px;
     border-radius: 1rem;
+    overflow: hidden;
 }
 
 .work__img {
