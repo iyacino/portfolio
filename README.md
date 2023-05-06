@@ -28,7 +28,7 @@ To set up the project on your local machine, follow these steps:
 1. Clone the project repository:
 
 ```shell
-git clone https://github.com/your-username/personal-portfolio.git
+git clone https://github.com/your-username/personal-portfolio.git```
 
 2. Navigate to the project directory:
 
