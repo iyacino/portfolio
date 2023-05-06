@@ -28,23 +28,23 @@ To set up the project on your local machine, follow these steps:
 1. Clone the project repository:
 
 ```
-git clone https://github.com/your-username/personal-portfolio.git ```
+git clone https://github.com/your-username/personal-portfolio.git
 
 2. Navigate to the project directory:
 
 ```
-cd personal-portfolio```
+cd personal-portfolio
 
 3. Install the required dependencies:
 
-```shell
+```
 npm install
 
 ## Usage
 
 To run the development server and view the project in your browser, use the following command:
 
-```shell
+```
 npm start
 
 This command starts the development server and automatically opens the project in your default browser. You can make changes to the code, and the browser will reload to reflect those changes.
@@ -55,7 +55,7 @@ To deploy the personal portfolio website, follow these steps:
 
 1. Build the production-ready optimized version of the project:
 
-```shell
+```
 npm run build
 
 2. Deploy the generated build folder to your preferred hosting platform.
