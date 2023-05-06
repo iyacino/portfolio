@@ -54,8 +54,8 @@ function Data() {
                   ></path>
         </svg>
         </h1>
-        <h3 className="home__subtitle">Frontend Developer</h3>
-        <p className="home__description">Creative Frontend Developer based in Algeria, very passionate and dedicated to my job.</p>
+        <h3 className="home__subtitle">Software Engineer | FullStack Developer</h3>
+        <p className="home__description">Brilliant Sotware Engineer and creative FullStack Developer, very passionate and dedicated to my job.</p>
         <a href="#contact" className="button button--flex">
             Say Hello
             <svg

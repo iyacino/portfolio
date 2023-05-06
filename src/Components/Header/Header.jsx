@@ -37,7 +37,7 @@ function Header() {
   return (
     <header className="header">
         <nav className="nav container">
-            <a href="index.html" className="nav__logo">myPortfolio</a>
+            <a href="index.html" className="nav__logo">Yacine TAAMOURT</a>
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list grid">
 

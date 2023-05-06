@@ -17,7 +17,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
                     <h3 className="services__title">
-                        Product <br /> Designer
+                        Backend <br /> Developer
                     </h3>
                 </div>
 
@@ -25,23 +25,22 @@ const Services = () => {
                 <div className={toggleState === 1 ? 'services__modal active-modal' : 'services__modal'}>
                     <div className="services__modal-content">
                         <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title">Product Designer</h3>
-                        <p className="services__modal-description">Service with more than 3 years of experience.
-                        Providing quality work to clients and companies.</p>
+                        <h3 className="services__modal-title">Backend Developer</h3>
+                        <p className="services__modal-description">Service with more than 8 years of experience.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">User research and usability testing.</p>
+                                <p className="services__modal-info">API Development.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Interface design.</p>
+                                <p className="services__modal-info">Database Management.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Visual design.</p>
+                                <p className="services__modal-info">Scalability and Performance Optimization.</p>
                             </li>
                         </ul>
                     </div>
@@ -52,7 +51,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-arrow services__icon"></i>
                     <h3 className="services__title">
-                        UI <br />Designer
+                        Frontend <br />Developer
                     </h3>
                 </div>
 
@@ -60,23 +59,22 @@ const Services = () => {
                 <div className= {toggleState === 2 ? "services__modal active-modal" : "services__modal" }>
                     <div className="services__modal-content">
                         <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title">UI Designer</h3>
-                        <p className="services__modal-description">Service with more than 3 years of experience.
-                        Providing quality work to clients and companies.</p>
+                        <h3 className="services__modal-title">Frontend Developer</h3>
+                        <p className="services__modal-description">Service with more than 8 years of experience.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">User interface UI design.</p>
+                                <p className="services__modal-info">Responsive Web Design.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Interaction design.</p>
+                                <p className="services__modal-info">User Interface UI Design.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">User experience UX design.</p>
+                                <p className="services__modal-info">Performance Optimization.</p>
                             </li>
                         </ul>
                     </div>

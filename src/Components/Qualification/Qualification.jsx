@@ -25,10 +25,10 @@ const Qualification = () => {
                     <div className={ toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Management Degree</h3>
+                                <h3 className="qualification__title">Certificate of Training ‑ Resource Management</h3>
                                 <span className="qualification__subtitle">California - Naval Postgraduate School</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2021 - 2022
+                                    <i className="uil uil-calendar-alt"></i> January 2022 - Mai 2022
                                 </div>
                             </div>
                             <div>
@@ -37,6 +37,7 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                         </div>  
+
                         <div className="qualification__data">
                             <div></div>
 
@@ -46,55 +47,56 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Master's Degree in Software Engineering</h3>
-                                <span className="qualification__subtitle">National Polytechnical School - Algiers - Algeria</span>
+                                <h3 className="qualification__title">Certificate of Training ‑ Americain Language Course</h3>
+                                <span className="qualification__subtitle">Defense Language Institute - San Antonio - Texas</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2016 - 2017
+                                    <i className="uil uil-calendar-alt"></i> Decembre 2021 - Janvier 2022
                                 </div>
                             </div>
 
                         </div>
 
+
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">IT Engineer Degree</h3>
-                                <span className="qualification__subtitle">National Polytechnical School - Algiers - Algeria</span>
+                                <h3 className="qualification__title">Master's Degree in Computer Science</h3>
+                                <span className="qualification__subtitle">Polytechnic National School - Algiers - Algeria</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2011 - 2016
+                                    <i className="uil uil-calendar-alt"></i> September 2016 - July 2017
                                 </div>
                             </div>
-                            <div>
-                                <span className="qualification__rounder">
-                                </span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>  
-                        <div className="qualification__data">
-                            <div></div>
-
+                            
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
+                        </div>
 
+                        <div className="qualification__data">
+                        <div></div>
                             <div>
-                                <h3 className="qualification__title">Bachelor Degree</h3>
-                                <span className="qualification__subtitle">Oran - Algeria</span>
+                                <span className="qualification__rounder">
+                                </span>
+                                <span className="qualification__line"></span>
+                            </div><div>
+                                <h3 className="qualification__title">Engineer's Degree in Computer Science</h3>
+                                <span className="qualification__subtitle">Polytechnic National School - Algiers - Algeria</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2011
+                                    <i className="uil uil-calendar-alt"></i> September 2011 - July 2016
                                 </div>
                             </div>
-
-                        </div>
+                            
+                        </div>  
+                        
                     </div>
 
                     <div className={ toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Frontend Developer</h3>
-                                <span className="qualification__subtitle">ReactJs & other frontend technologies</span>
+                                <h3 className="qualification__title">State Department</h3>
+                                <span className="qualification__subtitle">Software Engineer</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2019 - Present
+                                    <i className="uil uil-calendar-alt"></i> August 2018 - now
                                 </div>
                             </div>
                             <div>
@@ -112,10 +114,10 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Databases</h3>
-                                <span className="qualification__subtitle">Sql & MySql</span>
+                                <h3 className="qualification__title">Algérie Telecom Company</h3>
+                                <span className="qualification__subtitle">Software Engineer</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2015 - 2018
+                                    <i className="uil uil-calendar-alt"></i> July 2017 - June 2018
                                 </div>
                             </div>
 
@@ -126,7 +128,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Java Developer</h3>
                                 <span className="qualification__subtitle">Java & Java EE</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2015 - 2019
+                                    <i className="uil uil-calendar-alt"></i> 2015 - 2016
                                 </div>
                             </div>
                             <div>
